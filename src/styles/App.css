@@ -1,0 +1,88 @@
+body {
+    background-color: #f0f2f5;
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+  }
+  
+  .add-fiscalia-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .add-fiscalia-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ajusta el tamaño del elemento incluyendo el relleno y el borde en el ancho y alto */
+  }
+  
+  .add-fiscalia-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4267B2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .add-fiscalia-form button:hover {
+    background-color: #365899;
+  }
+  
+  .fiscalias-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .fiscalias-table th,
+  .fiscalias-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .fiscalias-table th {
+    background-color: #3b5998;
+    color: #fff;
+  }
+  
+  .fiscalias-table td button {
+    padding: 5px 10px;
+    background-color: #4267B2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .fiscalias-table td button:hover {
+    background-color: #365899;
+  }
+  
